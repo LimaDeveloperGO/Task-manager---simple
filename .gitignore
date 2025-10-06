@@ -1,0 +1,66 @@
+# Binários
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Arquivos de teste
+*.test
+
+# Arquivos de cobertura
+*.out
+*.prof
+
+# Dependências de vendor
+vendor/
+
+# Arquivos de configuração do IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos do sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Banco de dados local
+database/
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.production
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Arquivos de build
+dist/
+build/
+
+# Módulos Go (quando não usar go modules)
+# Descomente se não estiver usando go modules
+# /vendor/
+
+# Arquivos de debug
+debug
+__debug_bin
+
+# Air (live reload)
+tmp/
