@@ -35,8 +35,8 @@ Thumbs.db
 *.log
 logs/
 
-# Banco de dados local
-database/
+# Banco de dados local (arquivos gerados)
+/database/
 *.db
 *.sqlite
 *.sqlite3
